@@ -3,7 +3,51 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{087A17C6-BBAE-4218-892A-AAB1C042557F}"
+	ProjectSection(SolutionItems) = preProject
+		..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\animal.dll = ..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\animal.dll
+		..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\cat.cs = ..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\cat.cs
+		..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\client.cs = ..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\client.cs
+		..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\client.exe = ..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\client.exe
+		..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\domesticanimal.cs = ..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\domesticanimal.cs
+		..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\domesticanimal.netmodule = ..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\domesticanimal.netmodule
+		..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\keypair.snk = ..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\keypair.snk
+		..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\wildanimal.cs = ..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\wildanimal.cs
+		..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\wildanimal.netmodule = ..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\wildanimal.netmodule
+		..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\wolf.cs = ..\NET.W.2016.01.Zhivitskaya.024545\SolutionTask1\wolf.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryTask1", "ClassLibraryTask1\ClassLibraryTask1.csproj", "{4891B907-5ED6-4663-B89A-0551457912BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationTask1", "ConsoleApplicationTask1\ConsoleApplicationTask1.csproj", "{A6AE0C86-9E40-4198-8A0A-D4134FC1AFA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryTask1StrongName", "ClassLibraryTask1StrongName\ClassLibraryTask1StrongName.csproj", "{CB8833AA-7979-4077-8FBB-8B5264C69267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationTask1GAC", "ConsoleApplicationTask1GAC\ConsoleApplicationTask1GAC.csproj", "{1106DAAA-59E7-429E-B501-5A0B24AFAB69}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4891B907-5ED6-4663-B89A-0551457912BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4891B907-5ED6-4663-B89A-0551457912BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4891B907-5ED6-4663-B89A-0551457912BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4891B907-5ED6-4663-B89A-0551457912BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6AE0C86-9E40-4198-8A0A-D4134FC1AFA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AE0C86-9E40-4198-8A0A-D4134FC1AFA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AE0C86-9E40-4198-8A0A-D4134FC1AFA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AE0C86-9E40-4198-8A0A-D4134FC1AFA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB8833AA-7979-4077-8FBB-8B5264C69267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8833AA-7979-4077-8FBB-8B5264C69267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8833AA-7979-4077-8FBB-8B5264C69267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8833AA-7979-4077-8FBB-8B5264C69267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1106DAAA-59E7-429E-B501-5A0B24AFAB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1106DAAA-59E7-429E-B501-5A0B24AFAB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1106DAAA-59E7-429E-B501-5A0B24AFAB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1106DAAA-59E7-429E-B501-5A0B24AFAB69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
